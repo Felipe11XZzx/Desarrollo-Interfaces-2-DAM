@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabelUser" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelRegister" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelBirth" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelAge" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="LabelAge" min="-2" max="-2" attributes="0"/>
+                  <Component id="LabelBirth" min="-2" max="-2" attributes="0"/>
+                  <Component id="LabelRegister" min="-2" max="-2" attributes="0"/>
+                  <Component id="LabelUser" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+              <Component id="LabelTratement" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="98" max="32767" attributes="0"/>
+              <Component id="jLabelImage" min="-2" pref="151" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabelUser" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="LabelUser" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="LabelTratement" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabelRegister" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="LabelRegister" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="LabelBirth" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelBirth" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabelAge" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="LabelAge" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabelImage" min="-2" pref="201" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="144" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabelUser">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nombre:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelRegister">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="F. Registro:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelBirth">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="F. Nacimiento:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelAge">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Edad:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelImage">
+    </Component>
+    <Component class="javax.swing.JLabel" name="LabelTratement">
+    </Component>
+    <Component class="javax.swing.JLabel" name="LabelUser">
+    </Component>
+    <Component class="javax.swing.JLabel" name="LabelRegister">
+    </Component>
+    <Component class="javax.swing.JLabel" name="LabelBirth">
+    </Component>
+    <Component class="javax.swing.JLabel" name="LabelAge">
+    </Component>
+  </SubComponents>
+</Form>
